@@ -11,19 +11,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:fontFamily="@font/allerta_stencil"
         android:text="TextView"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+    <HorizontalScrollView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/origami_name"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintTop_toBottomOf="@+id/origami_name">
+
+        <TableLayout
+            android:id="@+id/table_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:id="@+id/Image_row"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TableRow
+                android:id="@+id/description_row"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </TableLayout>
+    </HorizontalScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

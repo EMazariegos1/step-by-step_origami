@@ -5,17 +5,10 @@ import android.graphics.drawable.Drawable;
 public class Origami {
     private String name;
     private int image;
-    private int instruction;
 
     public Origami(String name, int image) {
         this.name = name;
         this.image = image;
-    }
-
-    public Origami(String name, int image, int instruction) {
-        this.name = name;
-        this.image = image;
-        this.instruction = instruction;
     }
 
     public String getName() {
@@ -32,9 +25,5 @@ public class Origami {
 
     public void setImage(int image) {
         this.image = image;
-    }
-
-    public int getInstruction() {
-        return instruction;
     }
 }

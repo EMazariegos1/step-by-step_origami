@@ -6,6 +6,7 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
+import android.os.Parcelable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,7 +50,7 @@ public class OrigamiRecyclerViewAdapter extends RecyclerView.Adapter<OrigamiRecy
             public void onClick(View view) {
                 Intent intent = new Intent(context, InstructionsActivity.class);
                 intent.putExtra(context.getString(R.string.origami_name_key), objects.get(position).getName());
-                intent.putExtra(context.getString(R.string.origami_instructions_key), objects.get(position).getInstruction());
+                intent.putExtra(context.getString(R.string.origami_instructions_key), position);
                 context.startActivity(intent);
             }
         });

@@ -10,8 +10,13 @@ public class OrigamiDB {
             R.drawable.origami_penguin
     };
 
-    public static final int[] instructions = {
-            R.drawable.hand,
-            R.drawable.hand
+    public static final int[][] instructions = {
+            {R.drawable.hand, R.drawable.hand, R.drawable.hand},
+            {R.drawable.hand, R.drawable.hand}
+    };
+
+    public static final String[][] descriptions = {
+            {"hello", "hello", "hello"},
+            {"hello", "hello"}
     };
 }

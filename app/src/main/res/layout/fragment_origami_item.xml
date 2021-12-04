@@ -18,7 +18,7 @@
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#000000"
-        android:textSize="20sp" />
+        android:textSize="24sp" />
 
     <ImageButton
         android:id="@+id/content"

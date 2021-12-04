@@ -75,7 +75,7 @@ public class OrigamiListFragment extends Fragment {
     private List<Origami> getOrigamiFromDB() {
         List<Origami> items = new ArrayList<>();
         for(int i = 0; i < OrigamiDB.names.length; i++){
-            items.add(new Origami(OrigamiDB.names[i], OrigamiDB.images[i], OrigamiDB.instructions[i]));
+            items.add(new Origami(OrigamiDB.names[i], OrigamiDB.images[i]));
         }
         return items;
     };
