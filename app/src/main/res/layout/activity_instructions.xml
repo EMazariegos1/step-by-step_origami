@@ -20,30 +20,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView2"
+        android:name="com.example.step_by_steporigami.InstructionListFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/origami_name">
-
-        <TableLayout
-            android:id="@+id/table_layout"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent">
-
-            <TableRow
-                android:id="@+id/Image_row"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-            <TableRow
-                android:id="@+id/description_row"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-        </TableLayout>
-    </HorizontalScrollView>
+        app:layout_constraintTop_toBottomOf="@+id/origami_name" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

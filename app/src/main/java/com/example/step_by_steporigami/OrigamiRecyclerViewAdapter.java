@@ -77,4 +77,5 @@ public class OrigamiRecyclerViewAdapter extends RecyclerView.Adapter<OrigamiRecy
             return super.toString() + " '" + mContentView.getDrawable() + "'";
         }
     }
+
 }
