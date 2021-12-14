@@ -2,7 +2,7 @@ package com.example.step_by_steporigami;
 
 public class OrigamiDB {
     public static final String[] names = {
-            "Bird",
+            "Pigeon",
             "Penguin"
     };
     public static final int[] images = {
