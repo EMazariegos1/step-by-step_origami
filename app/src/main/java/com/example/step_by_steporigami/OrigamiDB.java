@@ -4,12 +4,20 @@ public class OrigamiDB {
     public static final String[] names = {
             "Pigeon",
             "Penguin",
-            "Fox"
+            "Fox",
+            "Cup",
+            "Cat",
+            "Dog",
+            "Banana"
     };
     public static final int[] images = {
             R.drawable.origami_bird,
             R.drawable.origami_penguin,
-            R.drawable.origami_fox
+            R.drawable.origami_fox,
+            R.drawable.origami_cup,
+            R.drawable.origami_cat,
+            R.drawable.origami_dog,
+            R.drawable.origami_banana
     };
 
     public static final int[][] instructions = {
@@ -43,7 +51,46 @@ public class OrigamiDB {
                     R.drawable.fox_step4_part1,
                     R.drawable.fox_step4_part2,
                     R.drawable.fox_step5_part1,
-                    R.drawable.origami_fox}
+                    R.drawable.origami_fox},
+            {R.drawable.cup_step1,
+                    R.drawable.cup_step2,
+                    R.drawable.cup_step3_part1,
+                    R.drawable.cup_step3_part2,
+                    R.drawable.cup_step3_part3,
+                    R.drawable.cup_step4_part1,
+                    R.drawable.cup_step4_part2,
+                    R.drawable.cup_step5,
+                    R.drawable.cup_step6,
+                    R.drawable.cup_step7,
+                    R.drawable.cup_step8,
+                    R.drawable.cup_step9,
+                    R.drawable.cup_step10,
+                    R.drawable.origami_cup},
+            {R.drawable.cat_step1,
+                    R.drawable.cat_step2,
+                    R.drawable.cat_step3,
+                    R.drawable.cat_step4,
+                    R.drawable.cat_step5,
+                    R.drawable.cat_step6,
+                    R.drawable.cat_step7,
+                    R.drawable.origami_cat},
+            {R.drawable.dog_step1,
+                    R.drawable.dog_step2,
+                    R.drawable.dog_step3,
+                    R.drawable.dog_step4,
+                    R.drawable.dog_step5,
+                    R.drawable.dog_step6,
+                    R.drawable.dog_step7,
+                    R.drawable.origami_dog},
+            {R.drawable.banana_step1,
+                    R.drawable.banana_step2,
+                    R.drawable.banana_step3,
+                    R.drawable.banana_step4,
+                    R.drawable.banana_step5,
+                    R.drawable.banana_step6_part1,
+                    R.drawable.banana_step6_part2,
+                    R.drawable.banana_step7,
+                    R.drawable.origami_banana}
     };
 
     public static final String[][] descriptions = {
@@ -58,6 +105,7 @@ public class OrigamiDB {
                     "Step 9: Push the center of the head in and flatten. This is called an inside reverse fold.",
                     "Step 10: This is how it should look.",
                     "Step 11: And tada! You have yourself a bird. Now set it free! Just kidding. Don't throw it in the air. It will just fall down and you'll be disappointed."},
+
             {"Step 1: Start with a square piece of origami paper",
                     "Step 2: Let's create a crease in the center to use as a guideline fold the paper in half",
             "Step 3: Then unfold it",
@@ -70,6 +118,7 @@ public class OrigamiDB {
             "Step 10: This is how it should look",
             "Step 11: Pull the beak out and flatten the back of the head like this.",
             "Step 12: You are done with your origami penguin"},
+
             {"Step 1: Start with a square piece of origami paper",
             "Step 2: Fold paper in half by folding the top corner to the bottom corner.",
             "Step 3: Let's make a line in the center. Fold in half again by folding left corner to right corner",
@@ -77,6 +126,49 @@ public class OrigamiDB {
             "Step 5: Fold the left and right triangle edges toward the center, but not all the way to the center.",
             "Step 6: This is how it should look",
             "Step 7: Turn the figure over and Draw on the face if you like",
-            "Step 8: You are done with your origami fox"}
+            "Step 8: You are done with your origami fox"},
+
+            {"Step 1: Start with a square piece of origami paper.",
+            "Step 2: Fold paper in half by folding the bottom corner to top corner.",
+            "Step 3: Fold the left edge of the triangle to the bottom edge",
+            "Step 4: Like this",
+            "Step 5: Then unfold",
+            "Step 6: Fold the left corner of the triangle to the end of the crease line on the right.",
+            "Step 7: Like this",
+            "Step 8: Fold the right corner to the left corner.",
+            "Step 9: Fold the top flap down",
+            "Step 10: Turn the paper over",
+            "Step 11: Again, fold the top flap down",
+            "Step 12: Turn the paper over again",
+            "Step 13: Open up the pocket",
+            "Step 14: You are done with your origami cup"},
+
+            {"Step 1: Start with a square piece of origami paper",
+            "Step 2: Fold paper in half by folding the bottom corner to top corner",
+            "Step 3: Fold in half again by folding left corner to right corner",
+            "Step 4: Unfold",
+            "Step 5: Form the ears by folding the left and right corners of the triangle up at an angle, like what you see in the picture",
+            "Step 6: Fold a portion of the top corner down",
+            "Step 7: Turn the figure over",
+            "Step 8: Draw some eyes and whiskers"},
+
+            {"Step 1: Start with a square piece of origami paper",
+            "Step 2: Fold paper in half by folding the top corner to the bottom corner",
+            "Step 3: Fold the triangle in half by folding the left corner to the right corner",
+            "Step 4: Unfold",
+            "Step 5: Let's make the ears! Fold both corners of the triangle down at an angle like you see in the picture",
+            "Step 6: The head's too pointy! Fold the top corner to the back",
+            "Step 7: Unless you want a pointy chin, fold the bottom corner back also.",
+            "Step 8: Give your dog a face by drawing the eyes and nose"},
+
+            {"Step 1: Start with a square sheet of origami paper and rotate it like a diamond.",
+            "Step 2: Fold the top corner to the bottom corner",
+            "Step 3: Fold the bottom corner slight higher than the top edge",
+            "Step 4: Fold the top corner behind the edge",
+            "Step 5: Fold the right corner to the left corner, creasing at the half way point",
+            "Step 6: Take the left corner from the top layer and fold it down to near the bottom corner",
+            "Step 7: Like this",
+            "Step 8: Now take the left corner from the remaining layer and fold it down like you see on the picture",
+            "Step 9: Fold the left corner back to make it disappear and you are done"}
     };
 }
